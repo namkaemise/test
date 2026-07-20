@@ -173,46 +173,6 @@ h1{
     box-shadow:0 0 255px rgba(168,85,247,0.7);
 }
 
-/* OST */
-.music-panel{
-    max-width:500px;
-    margin:0 auto;
-    padding:40px;
-    border-radius:25px;
-    background:rgba(255,255,255,0.05);
-    backdrop-filter:blur(15px);
-    border:1px solid rgba(192,132,252,0.2);
-    box-shadow:0 0 255px rgba(168,85,247,0.3);
-}
-.track-title{
-    font-family:'Orbitron',sans-serif;
-    font-size:1.2rem;
-    color:white;
-}
-.music-controls button{
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    border:none;
-    font-size:1.2rem;
-    cursor:pointer;
-    background:linear-gradient(45deg,	#000000,#6495ED);
-    color:white;
-    box-shadow:0 0 255px rgba(168,85,247,0.6);
-}
-.wave{
-    margin-top:30px;
-    height:4px;
-    background:linear-gradient(to right,	#000000,#6495ED);
-    animation:waveAnim 1.2s infinite ease-in-out;
-    opacity:0.5;
-}
-@keyframes waveAnim{
-    0%{transform:scaleX(0.6);}
-    50%{transform:scaleX(1);}
-    100%{transform:scaleX(0.6);}
-}
-
 /* 로딩 */
 #loading-screen{
     position:fixed;inset:0;
