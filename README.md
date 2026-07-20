@@ -279,18 +279,6 @@ h1{
     </div>
 </section>
 
-<section id="music" class="section">
-    <h2 style="color:		white;margin-bottom:40px;">ORIGINAL SOUND TRACK</h2>
-    <div class="music-panel">
-        <div class="track-title">Character Theme</div>
-        <div class="music-controls">
-            <button onclick="toggleMusic()" id="playBtn">▶</button>
-        </div>
-        <div class="wave"></div>
-    </div>
-    <audio id="bgm" src="Vixx Chained Up ( (Chained Up)).mp3"></audio>
-</section>
-
 <div id="modal" class="modal" onclick="closeModal()">
     <img id="modalImg">
 </div>
@@ -322,18 +310,6 @@ function openModal(src){
 }
 function closeModal(){
     document.getElementById("modal").classList.remove("active");
-}
-
-function toggleMusic(){
-    const audio=document.getElementById("bgm");
-    const btn=document.getElementById("playBtn");
-    if(audio.paused){
-        audio.play();
-        btn.textContent="❚❚";
-    }else{
-        audio.pause();
-        btn.textContent="▶";
-    }
 }
 
 function startLoading(){
