@@ -207,7 +207,6 @@ h1{
 <div class="top-menu">
     <button class="menu-btn active" onclick="showSection('intro',this)">Intro</button>
     <button class="menu-btn" onclick="showSection('gallery',this)">Gallery</button>
-    <button class="menu-btn" onclick="showSection('music',this)">OST</button>
 </div>
 
 <section id="intro" class="section active">
